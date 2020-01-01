@@ -22,7 +22,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 
 const App = () => (
-  <Container >
+  <Container>
     <Navbar bg="dark" variant="dark">
       <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
       <Nav className="mr-auto">
@@ -44,7 +44,7 @@ const App = () => (
 
     <Row>
       <Col>
-        <Card>
+        <Card className="beerTaps">
           <Card.Img variant="top" src="images/strawberries.jpg" />
           <Card.Body>
             <Card.Title>StrawBEERy Fields</Card.Title>            
@@ -77,7 +77,7 @@ const App = () => (
         </Card>
       </Col>
       <Col>
-        <Card>
+        <Card className="beerTaps">
           <Card.Img variant="top" src="images/java.jpg" />
           <Card.Body>
             <Card.Title>Java Dream</Card.Title>
